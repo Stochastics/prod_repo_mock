@@ -1,0 +1,10 @@
+# config.yaml
+#
+# This file contains configuration settings for the data pipeline or project.
+# Define tunable parameters here such as paths, environment flags, model settings,
+# thresholds, and other runtime options.
+#
+# This file should be parsed at runtime to make the system configurable
+# without needing to modify the core codebase.
+
+INPUT_FILE = "sample_data.csv"
