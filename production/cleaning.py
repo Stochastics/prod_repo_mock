@@ -1,3 +1,12 @@
+"""
+cleaning.py
+
+This module contains utility functions for data cleaning and preprocessing.
+Use this file to define reusable logic for handling missing values, formatting columns,
+filtering outliers, standardizing data, and other cleaning steps applied to raw data.
+
+Organizing cleaning logic here keeps the pipeline modular, testable, and easier to debug.
+"""
 
 import re
 import pandas as pd
