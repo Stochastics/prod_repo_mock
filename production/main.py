@@ -51,5 +51,11 @@ def main():
     # Print out the summary of the analysis
     print("Average rating by country:\n", summary)
 
+    # write it to a sql datbase ()
+    # sql server (sales.dbo.revenue)
+    # dashboard points to the table above(quicksight)
+    # everytime the table refreshed the table will show weekly revenue the past week
+
+
 if __name__ == "__main__":
     main()
